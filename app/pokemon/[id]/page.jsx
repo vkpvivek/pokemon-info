@@ -29,8 +29,8 @@ export default async function PokemonDetail({ params }) {
 
       <div style={{ marginTop: '1rem' }}>
         <p><strong>Height:</strong> {pokemon.height}</p>
-        <p><strong>Default Pokémon:</strong> {pokemon.is_default ? '✅ Yes' : '❌ No'}</p>
-        <p>
+        {/* <p><strong>Default Pokémon:</strong> {pokemon.is_default ? '✅ Yes' : '❌ No'}</p> */}
+        {/* <p>
           <strong>Location Encounters:</strong>{' '}
           <a
             href={pokemon.location_area_encounters}
@@ -40,7 +40,7 @@ export default async function PokemonDetail({ params }) {
           >
             View Locations
           </a>
-        </p>
+        </p> */}
       </div>
 
       <div style={{ marginTop: '1rem' }}>
